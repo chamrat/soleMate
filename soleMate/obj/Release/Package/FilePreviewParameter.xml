@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="solemate" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\ratch\\OneDrive\ -\ The\ City\ University\ of\ New\ York\\Current\ Semester\\CIS\ 4160\\soleMate\\soleMate\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\ratch\\OneDrive\ -\ The\ City\ University\ of\ New\ York\\Current\ Semester\\CIS\ 4160\\soleMate\\soleMate\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ConnectionString-Web.config Connection String" description="ConnectionString Connection String used in web.config by the application to access the database." value="Data Source=den1.mssql7.gear.host;Persist Security Info=True;User ID=cis4160dbchamal;Password=Mk45!7z9?5vR" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\ratch\\OneDrive\ -\ The\ City\ University\ of\ New\ York\\Current\ Semester\\CIS\ 4160\\soleMate\\soleMate\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
